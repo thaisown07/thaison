@@ -1,0 +1,29 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #101320;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.casino-container { max-width: 400px; width: 100%; padding: 20px; }
+.casino-card {
+  background: #20263a;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+.casino-title { color: #ffd700; margin: 0; text-align: center; }
+.casino-subtitle { font-size: 0.9rem; text-align: center; }
+.result-card, .session-card, .prediction-container {
+  text-align: center; margin-top: 15px;
+}
+.result-value, .session-value, .prediction-value {
+  font-size: 1.5rem; font-weight: bold;
+}
+.casino-footer { margin-top: 20px; text-align: center; font-size: 0.8rem; }
+a { color: #ffd700; }
